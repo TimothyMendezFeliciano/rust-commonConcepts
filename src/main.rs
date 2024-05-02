@@ -18,4 +18,12 @@ fn main() {
     }
 
     println!("The value of shadow_x is {shadow_x}");
+
+    let spaces = "     ";
+    let spaces = spaces.len();
+    println!("Spaces in a shadow = {spaces}");
+
+    // Causes compile time error because of incorrect type
+    // let mut spaces = "       ";
+    // spaces = spaces.len();
 }
