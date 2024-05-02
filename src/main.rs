@@ -1,6 +1,7 @@
 fn main() {
-    let x = 5;
+    let mut x = 5;
     println!("The value of x is {}", x);
-    // Throws error. x variable is not mutable.
+    // x is now mutable.
     x = 6;
+    println!("The new value of x is {}", x);
 }
