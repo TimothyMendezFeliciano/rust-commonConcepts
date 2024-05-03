@@ -1,4 +1,4 @@
-mod scalarTypes;
+mod scalar_types;
 
 fn main() {
     let mut x = 5;
