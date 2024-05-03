@@ -1,4 +1,5 @@
 use crate::compund_types::compound_main;
+use crate::functions_chapter::functions_chapter;
 use crate::scalar_types::scalar_main;
 
 mod scalar_types;
@@ -37,4 +38,6 @@ fn main() {
     scalar_main();
 
     compound_main();
+
+    functions_chapter();
 }
