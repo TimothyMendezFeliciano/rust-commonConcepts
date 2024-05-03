@@ -1,10 +1,13 @@
+use rand::{random, Rng};
 use crate::compund_types::compound_main;
+use crate::control_flow::control_flows;
 use crate::functions_chapter::functions_chapter;
 use crate::scalar_types::scalar_main;
 
 mod scalar_types;
 mod compund_types;
 mod functions_chapter;
+mod control_flow;
 
 fn main() {
     let mut x = 5;
@@ -40,4 +43,7 @@ fn main() {
     compound_main();
 
     functions_chapter();
+
+    let random = rand::thread_rng().gen_range(1..=100);
+    control_flows(random);
 }
