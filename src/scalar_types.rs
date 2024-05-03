@@ -1,4 +1,4 @@
-fn scalar_main() {
+pub fn scalar_main() {
     let _true_or_false: bool = false;
     let _signed_number_8_bit: u8 = 255;
     let _signed_number_16_bit: u16 = 2255;
@@ -13,4 +13,14 @@ fn scalar_main() {
 
     let _floatin_point_example: f32 = 128.256;
     let _character_example: char = 'x';
+
+    let result = integer_division(_number_8_bit, -25);
+    println!("The result of division {_number_8_bit} and -25 is: {result}")
+}
+
+fn integer_division(unsigned_number: i8, floater: i8) -> i8 {
+//     division
+    let quotient = unsigned_number / floater;
+
+    return quotient;
 }

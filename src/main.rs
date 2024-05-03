@@ -1,3 +1,5 @@
+use crate::scalar_types::scalar_main;
+
 mod scalar_types;
 
 fn main() {
@@ -28,4 +30,6 @@ fn main() {
     // Causes compile time error because of incorrect type
     // let mut spaces = "       ";
     // spaces = spaces.len();
+
+    scalar_main();
 }
