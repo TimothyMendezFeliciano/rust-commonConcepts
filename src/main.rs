@@ -3,6 +3,7 @@ use crate::scalar_types::scalar_main;
 
 mod scalar_types;
 mod compund_types;
+mod functions_chapter;
 
 fn main() {
     let mut x = 5;
