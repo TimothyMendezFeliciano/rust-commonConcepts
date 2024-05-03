@@ -1,6 +1,8 @@
+use crate::compund_types::compound_main;
 use crate::scalar_types::scalar_main;
 
 mod scalar_types;
+mod compund_types;
 
 fn main() {
     let mut x = 5;
@@ -32,4 +34,6 @@ fn main() {
     // spaces = spaces.len();
 
     scalar_main();
+
+    compound_main();
 }
